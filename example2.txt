@@ -1,0 +1,75 @@
+package main
+
+import "fmt"
+
+func main() {
+	//x := new(User)
+	//
+	//x.FirstName = "Cihan"
+	//x.LastName = "Ozhan"
+
+	//p := new(Payment)
+	//p.Amount = 10.2
+	//p.Currency = "USD"
+
+	x := NewUser("Cihan", "Özhan", "cihanozhan", 33, 1546.45, 21.3)
+	fmt.Println(x.Pay.Salary)
+
+	//-------------
+	//result := x.GetFullName()
+	//fmt.Println(result)
+
+	//x.setFirstName("CO")
+	//fmt.Println(x.FirstName)
+
+}
+
+type Payment struct {
+	ID     int
+	Salary float64
+	Bonus  float64
+}
+
+type User struct {
+	ID        int
+	FirstName string
+	LastName  string
+	UserName  string
+	Age       int
+	Pay       *Payment
+}
+
+//Constructor
+func NewUser(fname, lname, uname string, age int, salary, bonus float64) *User {
+	u := &User{FirstName: fname, LastName: lname, UserName: uname, Age: age}
+	u.Pay = NewPayment(salary, bonus)
+	return u
+}
+
+func NewPayment(salary float64, bonus float64) *Payment {
+	return new(Payment)
+}
+
+////Function Version
+//func GetFullName(user *User) string {
+//	return user.FirstName + user.LastName
+//}
+
+//Method implementation of GetFullName
+//Methodlar bir nesneye aittir. Yetenek eklemek için method yöntemini kullanıyoruz.
+//( u* User) bir parametre değil, bir nesneye bağlamak için kullanılıyor. Bunu görüyorsak bir methoddur
+
+//func (u *User) GetFullName() string {
+//	return u.FirstName + " " + u.LastName
+//}
+//
+////%99 pointerlı yani yukarıdaki implementasyonu kullanmak daha doğru
+////func (u User) GetFullName() string {
+////	return u.FirstName + " " + u.LastName
+////}
+//
+////kullanmadığımız versiyonda hafızadaki hangi referansın güncellendiğini bilemeyiz
+//// Eb azından bizim nesne örneğimizin güncellenmeyeceği garantidir.
+//func (u *User) setFirstName(firstname string) {
+//	u.FirstName = firstname
+//}
