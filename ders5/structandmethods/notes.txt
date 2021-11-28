@@ -1,0 +1,7 @@
+
+
+Commands
+
+    > go mod init github.com/cihanozhan/userpayment
+
+        > go get github.com/cihanozhan/onemli-tool
