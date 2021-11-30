@@ -1,6 +1,9 @@
 # Go Bootcamp
 
-##01 - Go Programlama Diline Genel Bakış
+:heavy_check_mark: Explained at the lesson!
+
+:white_check_mark: Checked it myself!
+## 01 - Go Programlama Diline Genel Bakış :heavy_check_mark:
 
 	•	Go Programlama Diline Genel Bakış
 	•	Compiler
@@ -37,7 +40,9 @@
 	•	Go’da Pointer Kullanımı
 	•	Ortam Değişkenlerini Elde Etmek
 	•	Proje : Bölüm Sonu Uygulaması (CLI)
-##02 - Go Programlamaya Giriş
+## 02 - Go Programlamaya Giriş
+:heavy_check_mark:
+:white_check_mark:
 
 	•	Akış Kontrolü
 	•	Diziler 
@@ -59,15 +64,17 @@
 	•	Go Built-in String Fonksiyonları
 	•	Go ile Örnek Algoritma Uygulamaları
 	•	Proje : Bölüm Sonu Uygulaması
-##03 - Paket Yönetimi
-
+## 03 - Paket Yönetimi
+:heavy_check_mark:
+:white_check_mark:
 	•	Go Paket Kavramına Genel Bakış
 	•	Paketleri Oluşturmak
 	•	Paket İnşa Etmek
 	•	Paketlerin Kullanımı
 	•	Paketlerin Yönetimi
 	•	Proje : Bölüm Sonu Uygulaması
-##04 - Hata Yönetimi & Loglama
+## 04 - Hata Yönetimi & Loglama
+:heavy_check_mark:
 
 	•	Hata Yönetimine Genel Bakış
 	•	Hata İşleme Stratejileri
@@ -76,7 +83,8 @@
 	•	Go ile try … catch Yaklaşımı
 	•	Loglama
 	•	Proje : Bölüm Sonu Uygulaması
-##05 - Fonksiyonlar, Yapılar, Metotlar, Arayüzler
+## 05 - Fonksiyonlar, Yapılar, Metotlar, Arayüzler
+:heavy_check_mark:
 
 	•	Fonksiyonlar
 	•	Yapılar
@@ -84,7 +92,9 @@
 	•	Metotları Aşırı Yüklemek
 	•	Arayüzler
 	•	Proje : Bölüm Sonu Uygulaması
-##06 - Pointer
+## 06 - Pointer
+:heavy_check_mark:
+
 
 	•	İşaretçilere Genel Bakış
 	•	İşaretçiler ile Slice’lar
@@ -92,7 +102,8 @@
 	•	İşaretçiler ile Fonksiyonlar
 	•	İşaretçiler ile Referans ve Referans Olmayan Tipler
 	•	Proje : Bölüm Sonu Uygulaması
-##07 – OOP : Nesne Yönelimli Programlama
+## 07 – OOP : Nesne Yönelimli Programlama
+:heavy_check_mark:
 
 	•	Nesne Yönelimli Programlama(OOP) & Package-Oriented Design(POD) Kavramları
 	•	Kapsüllemek
@@ -103,7 +114,7 @@
 	•	Polymorphism (Çok Biçimlilik)
 	•	Arayüzlerin Çok Biçimlilik ile İlişkisi
 	•	Proje : Bölüm Sonu Uygulaması (Ödeme Sistemi)
-##08 - Concurrency
+## 08 - Concurrency
 
 	•	Concurrency ve Paralelizm Nedir?
 	•	Eş Zamanlılık Mimarisi
@@ -113,7 +124,8 @@
 	•	Eşzamanlı I/O Görevleri 
 	•	Görevleri Paralelleştirmek
 	•	Proje : Bölüm Sonu Uygulaması
-##09 - Encoding/Decoding, Dosya ve Sıkıştırma Operasyonları
+## 09 - Encoding/Decoding, Dosya ve Sıkıştırma Operasyonları
+:heavy_check_mark:
 
 	•	Go Standard Library : encoding Paketi
 	•	Dosya Operasyonları
@@ -148,7 +160,7 @@
 	•	Dosya Sıkıştırma Operasyonları
 	•	TAR Dosyaları ile Çalışmak
 	•	ZIP Dosyaları ile Çalışmak
-##10 - Go ile Veritabanı Programlama : RDBMS
+## 10 - Go ile Veritabanı Programlama : RDBMS
 
 	•	Go ile Veritabanı Programlama Temeller
 	•	ORM Mantığını Anlamak İçin ‘Native’ Veritabanı İşlemlerinin Önemi
@@ -166,7 +178,7 @@
 	•	GORM ve PostgreSQL ile Temel Veritabanı Programlama Pratikleri
 	•	Proje : GORM ve PostgreSQL ile Veritabanı Uygulaması
 	•	Diğer Açık Kaynaklı Go Veritabanı Kütüphanelerini İncelemek
-##11 – Go ile Veritabanı Programlama : NoSQL
+## 11 – Go ile Veritabanı Programlama : NoSQL
 
 	•	NoSQL Nedir ve Neden Kullanılır?
 	•	Go ile NoSQL Veritabanı Programlama İçin Kullanılacak Kütüphaneler
@@ -177,7 +189,7 @@
 	•	MongoDB Veritabanı Programlama
 	•	MongoDB Veritabanı Sorgulama Pratikleri
 	•	Proje : Go ile MongoDB Veritabanı Uygulaması
-##12 - Güvenlik
+## 12 - Güvenlik
 
 	•	Yazılımda Güvenlik ve Güvenli Yazılım Geliştirmeye Genel Bakış
 	•	Güvenli Yazılım Geliştirme Süreçleri (SecureDLC)
@@ -186,7 +198,7 @@
 	•	Hashing
 	•	Encryption
 	•	Proje : Kriptografi Odaklı Uygulama
-##13 - Go ile Web Programlama
+## 13 - Go ile Web Programlama
 
 	•	Web Programlamaya Genel Bakış
 	•	RESTful API Programlama Temelleri
@@ -202,7 +214,7 @@
 	•	Hosting & Deployment Temelleri
 	•	Self-Hosting
 	•	Go ve Docker Kullanımı
-##14 - Unit Testing
+## 14 - Unit Testing
 
 	•	Yazılımda Test Kavramına Genel Bakış
 	•	Go’da Unit Test Gerçekleştirmek
