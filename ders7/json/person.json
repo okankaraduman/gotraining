@@ -1,0 +1,21 @@
+{
+    "ID":7,
+    "FirstName":"Cihan",
+    "LastName":"Özhan",
+    "UserName":"cihanozhan",
+    "Gender":"Erkek",
+    "Name":
+        {"Family":"xyz","Personal":"Cihan"},
+    "Email":
+    [
+        {"ID":1,"Kind":"work","Address":"cihan@deeplab.co"},
+        {"ID":2,"Kind":"home","Address":"cihan.ozhan@hotmail.com"}
+    ],
+    "Interest":[
+        {"ID":1,"Kind":"C#"},
+        {"ID":2,"Kind":"Go"},
+        {"ID":3,"Kind":"Python"},
+        {"ID":4,"Kind":"SQL Server"},
+        {"ID":5,"Kind":"PostgreSQL"}
+    ]
+}
