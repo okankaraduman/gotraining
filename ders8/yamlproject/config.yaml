@@ -1,0 +1,9 @@
+User: CihanOzhan
+Database: YSDatabase
+Password: 1234567
+Port: 5432
+Server: 127.0.0.1
+Settings:
+  - SSLForce
+  - SettingX
+  - SettingY
