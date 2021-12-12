@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="{{.Page.Description}}">
+    <meta name="Author" content="CO">
+    <title>{{.Page.Name}}</title>
+</head>
+<body>
+    <h1> {{.Page.Name}}</h1>
+
+    {{range .Users}}
+    <p>
+        <strong>{{.ID}} - {{.FirstName}} {{.LastName}} </strong> <i>by {{.UserName}} </i>
+        <br>
+        <p>
+            Profil : <a href="{{.Profile}}" target="_blank">abc.com/{{.UserName}} </a>
+        </p>
+        {{range.Interests}}
+        <ul>
+            <li> {{.ID}} - {{.Name}}</li>
+        </ul>
+        {{end}}
+    </p>
+    {{end}}
+</body>
+</html>
