@@ -28,7 +28,7 @@ func get_user(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		fmt.Println("Hata oluştu.")
 	}
-	fmt.Fprintf(w, string(output))
+	fmt.Print(w, string(output))
 }
 
 type API struct {
